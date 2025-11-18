@@ -1,0 +1,16 @@
+<div class="providers-section">
+  <h3 class="section-title" translate>providers.title</h3>
+  <div class="providers-grid">
+    <div class="provider-card" *ngFor="let provider of providers">
+      <div class="provider-header">
+        <div class="provider-name">{{ provider.name }}</div>
+        <div class="provider-type">{{ provider.type }}</div>
+      </div>
+      <div class="provider-services">{{ provider.services }}</div>
+      <div class="provider-contact">
+        <button class="contact-btn" (click)="contactProvider(provider, 'call')" translate>contact.call</button>
+        <button class="contact-btn" (click)="contactProvider(provider, 'directions')" translate>contact.directions</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+.map-container {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.map-header {
+  margin-bottom: 15px;
+  
+  h3 {
+    color: #27ae60;
+    margin-bottom: 5px;
+  }
+}
+
+.map-subtitle {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+::ng-deep .leaflet-container {
+  border-radius: 8px;
+}

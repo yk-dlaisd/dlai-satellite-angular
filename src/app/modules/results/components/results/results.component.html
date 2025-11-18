@@ -1,0 +1,24 @@
+<div class="results-section">
+  <div class="results-header">
+    <h2 translate>results.title</h2>
+    <div class="area-info" translate>results.area_info</div>
+    <div class="search-query" *ngIf="searchQuery">
+      Search results for: <strong>{{ searchQuery }}</strong>
+    </div>
+  </div>
+
+  <div class="results-grid">
+    <!-- Map Section -->
+    <div class="map-column">
+      <app-map></app-map>
+    </div>
+
+    <!-- Insights Section -->
+    <div class="insights-column">
+      <app-crop-insights></app-crop-insights>
+    </div>
+  </div>
+
+  <!-- Service Providers -->
+  <app-service-providers></app-service-providers>
+</div>

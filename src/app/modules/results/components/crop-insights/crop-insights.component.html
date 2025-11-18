@@ -1,0 +1,30 @@
+<div class="insights-container">
+  <div class="insight-card">
+    <h3>📊 <span translate>results.crop_occupancy</span></h3>
+    <div class="chart-placeholder">
+      <div class="chart-data">
+        <span translate>results.your_crop</span>: {{ cropOccupancy.yourCrop }}%<br>
+        <span translate>results.other_crops</span>: {{ cropOccupancy.otherCrops }}%
+      </div>
+    </div>
+    <div class="insight-note" translate>results.crop_percentage</div>
+  </div>
+
+  <div class="insight-card">
+    <h3>�� <span translate>results.land_usage</span></h3>
+    <div class="chart-placeholder">
+      <div class="chart-data">
+        <span translate>results.farm_land</span>: {{ landUsage.farmLand }}%<br>
+        <span translate>results.empty_land</span>: {{ landUsage.emptyLand }}%<br>
+        <span translate>results.other_use</span>: {{ landUsage.otherUse }}%
+      </div>
+    </div>
+    <div class="insight-note" translate>results.land_usage_note</div>
+  </div>
+
+  <div class="insight-card">
+    <h3>💡 <span translate>results.suggestion</span></h3>
+    <p translate>results.suggestion_text</p>
+    <div class="insight-note" translate>results.suggestion_note</div>
+  </div>
+</div>

@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "home": "Home",
+    "how_it_works": "How It Works",
+    "for_farmers": "For Farmers",
+    "for_business": "For Business",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Know Before You Sow",
+    "subtitle": "Check crop occupancy and find local service providers in your area"
+  },
+  "search": {
+    "placeholder": "Enter your village/town and crop name...",
+    "button": "Search Crop Data"
+  },
+  "data": {
+    "freshness": "📅 Data updated: 2 weeks ago"
+  },
+  "results": {
+    "title": "Crop Insights for Your Area",
+    "area_info": "Showing data for 50 km area around your location",
+    "crop_occupancy": "Crop Occupancy",
+    "land_usage": "Land Usage",
+    "suggestion": "Suggestion",
+    "your_crop": "Your Selected Crop",
+    "other_crops": "Other Crops",
+    "farm_land": "Farm Land",
+    "empty_land": "Empty Land",
+    "other_use": "Other Use",
+    "crop_percentage": "Percentage of land growing your selected crop",
+    "land_usage_note": "How land is being used in your area",
+    "suggestion_text": "Good time to sow! 65% farmers in your area are preparing for this crop.",
+    "suggestion_note": "Based on historical patterns and current occupancy"
+  },
+  "map": {
+    "title": "Interactive Map",
+    "subtitle": "Showing crop distribution and service providers"
+  },
+  "providers": {
+    "title": "Local Service Providers"
+  },
+  "how_it_works": {
+    "title": "How It Works",
+    "search": "Search Your Area",
+    "search_desc": "Enter your location and crop of interest",
+    "insights": "Get Crop Insights",
+    "insights_desc": "See what's growing in your region",
+    "help": "Find Local Help",
+    "help_desc": "Connect with nearby service providers"
+  },
+  "farmers": {
+    "title": "For Farmers",
+    "free": "Free for Farmers",
+    "free_desc": "Basic crop insights and local provider information completely free",
+    "plan": "Plan Better",
+    "plan_desc": "Know what crops are popular in your area before sowing",
+    "save_time": "Save Time",
+    "save_time_desc": "Find all agricultural services in one place"
+  },
+  "business": {
+    "title": "For Service Providers",
+    "basic": "Basic Plan",
+    "basic_desc": "List your business in farmer searches",
+    "pro": "Pro Plan",
+    "pro_desc": "Advanced analytics and customer insights",
+    "enterprise": "Enterprise",
+    "enterprise_desc": "API access and custom solutions"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "customer_support": "Customer Support",
+    "customer_email": "Customer Care Email",
+    "customer_phone": "Customer Care Phone",
+    "founder": "Founder & Director",
+    "email": "Email",
+    "phone": "Phone",
+    "linkedin": "LinkedIn",
+    "company_info": "Company Information",
+    "address": "Address",
+    "connect": "Connect With Us",
+    "call": "📞 Call",
+    "directions": "📍 Directions"
+  },
+  "footer": {
+    "tagline": "Empowering farmers with AI-driven satellite insights for sustainable agriculture.",
+    "quick_links": "Quick Links",
+    "contact_info": "Contact Info",
+    "all_rights": "All rights reserved."
+  }
+}

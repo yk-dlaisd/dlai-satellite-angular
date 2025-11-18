@@ -1,0 +1,26 @@
+<header>
+  <mat-toolbar class="header-toolbar">
+    <div class="nav-container">
+      <div class="logo">
+        <img src="assets/images/company-logo.png" alt="DLAI Satellite Data" class="logo-img" (error)="onImageError($event)">
+        <span class="logo-text">DLAI Satellite Data</span>
+      </div>
+      
+      <div class="nav-controls">
+        <app-language-switcher></app-language-switcher>
+        
+        <button class="mobile-menu-btn" (click)="toggleMobileMenu()">
+          <mat-icon>menu</mat-icon>
+        </button>
+
+        <nav class="nav-menu" [class.active]="isMobileMenuOpen()">
+          <a (click)="scrollToSection('home')" translate>nav.home</a>
+          <a (click)="scrollToSection('how-it-works')" translate>nav.how_it_works</a>
+          <a (click)="scrollToSection('for-farmers')" translate>nav.for_farmers</a>
+          <a (click)="scrollToSection('for-business')" translate>nav.for_business</a>
+          <a (click)="scrollToSection('contact')" translate>nav.contact</a>
+        </nav>
+      </div>
+    </div>
+  </mat-toolbar>
+</header>

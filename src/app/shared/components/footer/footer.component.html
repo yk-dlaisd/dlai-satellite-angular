@@ -1,0 +1,34 @@
+<footer>
+  <div class="footer-content">
+    <div class="footer-section">
+      <div class="footer-logo">
+        <span class="logo-text">DLAI Satellite Data</span>
+      </div>
+      <p translate>footer.tagline</p>
+    </div>
+    
+    <div class="footer-section">
+      <h3 translate>footer.quick_links</h3>
+      <div class="footer-links">
+        <a (click)="scrollToSection('home')" translate>nav.home</a>
+        <a (click)="scrollToSection('how-it-works')" translate>nav.how_it_works</a>
+        <a (click)="scrollToSection('for-farmers')" translate>nav.for_farmers</a>
+        <a (click)="scrollToSection('for-business')" translate>nav.for_business</a>
+        <a (click)="scrollToSection('contact')" translate>nav.contact</a>
+      </div>
+    </div>
+    
+    <div class="footer-section">
+      <h3 translate>footer.contact_info</h3>
+      <div class="footer-links">
+        <span>📧 customer.care@dlaisd.com</span>
+        <span>📱 8888912344</span>
+        <span>🏢 Pune, MH, India</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="copyright">
+    &copy; {{ currentYear }} DLAI Satellite Data (OPC) Pvt Ltd. <span translate>footer.all_rights</span>
+  </div>
+</footer>

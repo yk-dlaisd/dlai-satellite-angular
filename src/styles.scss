@@ -1,0 +1,73 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #2c3e50;
+  background: #f8f9fa;
+}
+
+/* Farmer-Focused Theme Colors */
+:root {
+  --farmer-green: #27ae60;
+  --soil-brown: #8d6e63;
+  --sky-blue: #3498db;
+  --sun-yellow: #f1c40f;
+  --clean-white: #ffffff;
+  --light-gray: #f8f9fa;
+  --text-dark: #2c3e50;
+  --text-light: #7f8c8d;
+}
+
+/* Material Overrides */
+.mat-toolbar {
+  background: white !important;
+  color: #2c3e50 !important;
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+/* Responsive Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Focus Styles for Accessibility */
+button:focus,
+input:focus {
+  outline: 2px solid #27ae60;
+  outline-offset: 2px;
+}
+
+/* Print Styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

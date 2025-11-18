@@ -1,0 +1,18 @@
+<div class="hero-content">
+  <h1 translate>hero.title</h1>
+  <p translate>hero.subtitle</p>
+  
+  <div class="search-container">
+    <input 
+      type="text" 
+      class="search-input" 
+      [placeholder]="'search.placeholder' | translate"
+      [(ngModel)]="searchQuery"
+      (keypress)="onSearchKeyPress($event)">
+    <button class="search-btn" (click)="onSearch()" translate>search.button</button>
+  </div>
+  
+  <div class="data-freshness">
+    <span translate>data.freshness</span>
+  </div>
+</div>

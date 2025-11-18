@@ -1,0 +1,45 @@
+.insights-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.insight-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.insight-card h3 {
+  color: #27ae60;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.1rem;
+}
+
+.chart-placeholder {
+  height: 120px;
+  background: #f8f9fa;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7f8c8d;
+  margin-bottom: 10px;
+  border: 2px dashed #e9ecef;
+}
+
+.chart-data {
+  text-align: center;
+  font-weight: 500;
+}
+
+.insight-note {
+  font-size: 0.8rem;
+  color: #7f8c8d;
+  text-align: center;
+  margin-top: 10px;
+}
