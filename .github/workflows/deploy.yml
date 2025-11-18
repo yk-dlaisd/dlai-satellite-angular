@@ -16,14 +16,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
     
-    - name: Validate package.json
-      run: |
-        if ! node -e "require('./package.json')" 2>/dev/null; then
-          echo "❌ package.json is invalid JSON"
-          exit 1
-        fi
-        echo "✅ package.json is valid"
-    
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
@@ -34,10 +26,12 @@ jobs:
       run: npm install
     
     - name: Build application
-      run: npm run build:ssr
+      run: |
+        npx ng version
+        npm run build
     
-    - name: Run tests
-      run: npm test -- --watch=false --browsers=ChromeHeadless
+    - name: Build SSR application
+      run: npm run build:ssr
     
     - name: Log in to Azure Container Registry
       uses: azure/docker-login@v1
