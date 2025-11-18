@@ -1,0 +1,45 @@
+{
+  "name": "dlai-satellite-angular",
+  "version": "1.0.0",
+  "description": "DLAI Satellite Data - Angular 17+ Frontend Application",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "build:ssr": "ng build && ng run dlai-satellite-angular:server",
+    "serve:ssr": "node dist/dlai-satellite-angular/server/main.js",
+    "dev": "ng serve --host 0.0.0.0 --port 4200",
+    "test": "ng test",
+    "lint": "ng lint"
+  },
+  "dependencies": {
+    "@angular/animations": "^17.0.0",
+    "@angular/common": "^17.0.0",
+    "@angular/compiler": "^17.0.0",
+    "@angular/core": "^17.0.0",
+    "@angular/forms": "^17.0.0",
+    "@angular/platform-browser": "^17.0.0",
+    "@angular/platform-browser-dynamic": "^17.0.0",
+    "@angular/platform-server": "^17.0.0",
+    "@angular/router": "^17.0.0",
+    "@angular/material": "^17.0.0",
+    "@angular/cdk": "^17.0.0",
+    "@ngx-translate/core": "^15.0.0",
+    "@ngx-translate/http-loader": "^8.0.0",
+    "leaflet": "^1.9.4",
+    "@asymmetrik/ngx-leaflet": "^10.0.0",
+    "@abacritt/angularx-social-login": "^2.1.0",
+    "express": "^4.18.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^17.0.0",
+    "@angular/cli": "^17.0.0",
+    "@angular/compiler-cli": "^17.0.0",
+    "@types/express": "^4.17.0",
+    "@types/node": "^18.0.0",
+    "typescript": "~5.2.0"
+  }
+}
